@@ -16,6 +16,7 @@ This sales data is a LITA Capstone Project an open data which can be freely down
 
 ###Tools Used
 - MicrosoftExcel [Download Here](https://microsoft.com)
+
   1.For Data Cleaning
   .Removal of duplicates in the data
   .Formatting of Data by making sure the dates amountand customers ID are consistently formatted.
