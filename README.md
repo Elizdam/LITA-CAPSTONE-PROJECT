@@ -1,2 +1,3 @@
-# LITA-CAPSTONE-PROJECT
-Data analysis class Project containing class activities, assignment ,chats etc
+### LITA-CAPSTONE-PROJECT SALES DATA
+
+PROJECT TITLE:Analysing sal performance and data Using Microsoft Excel,SQL an powerBi 
