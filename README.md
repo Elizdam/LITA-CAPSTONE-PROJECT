@@ -13,3 +13,12 @@ This is a sales analysis that include different data set and documentation to ma
 
 ### Data Sources  
 This sales data is a LITA Capstone Project an open data which can be freely downloaded online through data repository site such as kaggle etc
+
+###Tools Used
+- MicrosoftExcel [Download Here](https://microsoft.com)
+  1.For Data Cleaning
+  .Removal of duplicates in the data
+  .Formatting of Data by making sure the dates amountand customers ID are consistently formatted.
+
+  
+- ]
