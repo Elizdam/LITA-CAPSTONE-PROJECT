@@ -12,3 +12,4 @@ This is a sales analysis that include different data set and documentation to ma
 3. To Identify and undertand revenue resources from each region,date of purchase,quantity of product bought
 
 ### Data Sources  
+This sales data is a LITA Capstone Project an open data which can be freely downloaded online through data repository site such as kaggle etc
