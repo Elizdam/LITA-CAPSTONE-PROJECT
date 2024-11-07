@@ -29,6 +29,8 @@ This sales data is a LITA Capstone Project an open data which can be freely down
 -  Import DAta:Import your already cleaned data,remove the empty rows and load the clean data into SQL database
 -  Inspect table structrue: Use DESCRIBE table_name;or SELECT*FROM[dbo].[CAPSTONE PROJECT] For sales
 - Basic Queries:
+-     CREATE DATABASE DAMMY_db
+      SELECT * FROM  [dbo].[CAPSTONE PROJECT] 
   1. For Data Cleaning
   2. 
   .  Formatting of Data by making sure the dates amount and customers ID are consistently formatted.
