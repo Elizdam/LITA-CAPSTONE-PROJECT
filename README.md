@@ -19,19 +19,26 @@ This sales data is a LITA Capstone Project an open data which can be freely down
 - SQL
 - Powerbi Visualization
 ### Exploratory Data Analysis
+---
   1.Loading and initial exploration of Data
--Using Excel
--Opening and studying of Data:Loada,the data on Excel to insectthe rows,columns and data types.
--Remove Duplicates:This is to remove dulpicates inthe data and clear them out.
--Summary Statistics:Analyse and summarise the data using AVERAGE,AVERAGEIF,SUM,SUMIF etc To calculate total revenue,sum total of sales and Average sales ;
-.Using SQL
--Import DAta:Import your already cleaned data,remove the empty rows and load the clean data into SQL database
-  1.For Data Cleaning
-  .Formatting of Data by making sure the dates amount and customers ID are consistently formatted.
-  .Well desribed statistics and Aggregation
+- Using Excel
+- Opening and studying of Data:Loada,the data on Excel to insectthe rows,columns and data types.
+- Remove Duplicates:This is to remove dulpicates inthe data and clear them out.
+- Summary Statistics:Analyse and summarise the data using AVERAGE,AVERAGEIF,SUM,SUMIF etc To calculate total revenue,sum total of sales and Average sales ;
+- Using SQL
+-  Import DAta:Import your already cleaned data,remove the empty rows and load the clean data into SQL database
+-  Inspect table structrue: Use DESCRIBE table_name;or SELECT*FROM[dbo].[CAPSTONE PROJECT] For sales
+- Basic Queries:
+  1. For Data Cleaning
+  2. 
+  .  Formatting of Data by making sure the dates amount and customers ID are consistently formatted.
+  
+  .  Well desribed statistics and Aggregation
 
   2.Using Excel
-  .Calculating the sales column (Quantity*Unit Price)
+  . Calculating the sales column (Quantity*Unit Price)
+  . 
+  
 
   
 - ]
