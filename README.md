@@ -55,7 +55,7 @@ This sales data is a LITA Capstone Project an open data which can be freely down
     5. Calculate Monthly sales  total sales for the current year
     6. Find the top 5 customers by total purchase amount
     7. Calculate the percentage of total sale by each region
-    8. Identfy products ith no sals in the last quarter
+    8. Identfy products ith no sales in the last quarter
    
     Some of the quqeries are;
     1. Retrieve the total sales for each product category:
@@ -65,7 +65,7 @@ This sales data is a LITA Capstone Project an open data which can be freely down
               FROM [dbo].[CAPSTONE PROJECT] 
               GROUP BY product
        ---
-     3. Identify productswith no sales in the last quarter ;
+     2. Identify products with no sales in the last quarter ;
    
                 SELECT Distinct product
                 FROM [dbo].[CAPSTONE PROJECT]
@@ -73,8 +73,26 @@ This sales data is a LITA Capstone Project an open data which can be freely down
                       SELECT Product
                       FROM [dbo].[CAPSTONE PROJECT]
                       WHERE orderDate >= DATEADD(month, -1, GETDATE())
- )
-ORDER BY product;
+                       )
+                      ORDER BY product;
+    ---
+    3. Calculte monthly sales totals for the current year:
+
+                         SELECT 
+                         MONTH(Orderdate) AS month,
+                         DATENAME(MONTH, Orderdate) AS month_name,
+                         SUM(Quantity * UnitPrice) AS monthly_sales
+
+                     FROM
+                       [dbo].[CAPSTONE PROJECT]
+                       WHERE 
+                       YEAR(Orderdate) = YEAR(GETDATE())
+                       GROUP BY
+	                      MONTH(Orderdate),
+	                      DATENAME(MONTH, Orderdate)
+                        ORDER BY month;
+
+    
   .  Well desribed statistics and Aggregation
 
   2.Using Excel
