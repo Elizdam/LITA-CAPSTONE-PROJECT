@@ -58,14 +58,23 @@ This sales data is a LITA Capstone Project an open data which can be freely down
     8. Identfy products ith no sals in the last quarter
    
     Some of the quqeries are;
-    1. Retrieve the totl sales for each product category:
-   
+    1. Retrieve the total sales for each product category:
 
-        SELECT Product, SUM(Quantity * UnitPrice) AS total_sales
-        FROM [dbo].[CAPSTONE PROJECT] 
-        GROUP BY product
+    
+              SELECT Product,SUM Quantity * UnitPrice) AS total_sales
+              FROM [dbo].[CAPSTONE PROJECT] 
+              GROUP BY product
        ---
-     2. Identify productswith no sales in the last quarter ;
+     3. Identify productswith no sales in the last quarter ;
+   
+                SELECT Distinct product
+                FROM [dbo].[CAPSTONE PROJECT]
+                WHERE product NOT IN (
+                      SELECT Product
+                      FROM [dbo].[CAPSTONE PROJECT]
+                      WHERE orderDate >= DATEADD(month, -1, GETDATE())
+ )
+ORDER BY product;
   .  Well desribed statistics and Aggregation
 
   2.Using Excel
