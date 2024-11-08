@@ -91,14 +91,9 @@ This sales data is a LITA Capstone Project an open data which can be freely down
 	                      MONTH(Orderdate),
 	                      DATENAME(MONTH, Orderdate)
                         ORDER BY month;
+       ---
 
-    
-  .  Well desribed statistics and Aggregation
-
-  2.Using Excel
-  . Calculating the sales column (Quantity*Unit Price)
-  . 
-  
 
   
-- ]in  the 
+
+
