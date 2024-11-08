@@ -93,11 +93,10 @@ This sales data is a LITA Capstone Project an open data which can be freely down
                         ORDER BY month;
        ---
 ### Inference 
-     1.Top perfoming products using Excel and SQL,is "shoes".it is considered the to perfiming product becasue of the total sales of #613,380 which is generated to be higher than the other product
+     1.Top perfoming products using Excel and SQL,is "shoes".it is considered to be the perfoiming product becasue of the total sales of #613,380 which is generated to be higher than the other product
      2. Regional Breakdown;
      - IN THE NORTH:There was an increase in the total turnover with 26% in year 2023 to 2024 from #143,960 to #243,040.The product should be invested on more for a better revenue
-     - IN THE SOUTH:There was a decrease  of about 4% in the the revenue that was generated that is about #33,820.in cases likethis, it is advised to lookinto the cause of the decrease 	against the coming year 
-     -IN THE EAST 
-  
-
+     - IN THE SOUTH:There was a decrease of about 4% in the revenue that was generated which is about #33,820.in cases like this,it is advised to look into the cause of the decrease against the coming year 
+     -IN THE EAST:There was a decline in the total revenue from #393,945 to #91,980  making it a decline of 62%.The decrease in revenue may be  as result of competitors,increase, 	hardship or unstability of the economic condition in difficulty to earn means  an all,there by resuing in the reduction in patronage by people of that particular product.It is 	advise that prices of product should be reviewed,a good relationship should be encouraged eith the old and nwe customers ,discount should be given also
+     -IN THE WEST
 
