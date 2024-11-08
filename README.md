@@ -91,12 +91,23 @@ This sales data is a LITA Capstone Project an open data which can be freely down
 	                      MONTH(Orderdate),
 	                      DATENAME(MONTH, Orderdate)
                         ORDER BY month;
-       ---
-### Inference 
-     1.Top perfoming products using Excel and SQL,is "shoes".it is considered to be the perfoiming product becasue of the total sales of #613,380 which is generated to be higher than the other product
-     2. Regional Breakdown;
-     - IN THE NORTH:There was an increase in the total turnover with 26% in year 2023 to 2024 from #143,960 to #243,040.The product should be invested on more for a better revenue
-     - IN THE SOUTH:There was a decrease of about 4% in the revenue that was generated which is about #33,820.in cases like this,it is advised to look into the cause of the decrease against the coming year 
-     -IN THE EAST:There was a decline in the total revenue from #393,945 to #91,980  making it a decline of 62%.The decrease in revenue may be  as result of competitors,increase, 	hardship or unstability of the economic condition in difficulty to earn means  an all,there by resuing in the reduction in patronage by people of that particular product.It is 	advise that prices of product should be reviewed,a good relationship should be encouraged eith the old and nwe customers ,discount should be given also
-     -IN THE WEST
+---
 
+### Inference 
+     1.Top perfoming products using Excel and SQL,is "shoes".it is considered to be the performing product becasue of the total sales of #613,380 which is generated to be higher than other products.
+     2. Regional Breakdown;
+- IN THE NORTH:There was an increase in the total turnover with 26% in year 2023 to 2024 from #143,960 to #243,040.The product should be invested on more for a better revenue.
+     
+- IN THE SOUTH:There was a decrease of about 4% in the revenue that was generated which is about #33,820.in cases like this,it is advised to look into the cause of the decrease against the coming year.
+  
+- IN THE EAST:There was a decline in the total revenue from #393,945 to #91,980 making it a decline of 62%.The decrease in revenue may be  as result of competitors,increase, hardship or unstability of the economic condition in difficulty to earn means  an all,there by resulting in the reduction in patronage by people of that particular product.
+       
+It is advise that prices of product should be reviewed,a good relationship should be encouraged with the old and new customers ,discount should be given also and a survey should be conducted as soon as possible to revive the flow of sales.
+
+- IN THE WEST: An increase of # 127,135 in revenue is recorded and this should be jealously maintain for continuity.
+
+---------
+
+     
+### Summary
+As a resut of the analysis for the year 2023 &2024, a decrease in revenue was recored in two of the regions(South and East).A market survey should be carried out as soon as possible to inrease the flow of sales,quality standard shoud be maintain so as to keep the existing customers while trying to bring back the old customers and get new ones .
