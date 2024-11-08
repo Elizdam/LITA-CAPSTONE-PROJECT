@@ -35,7 +35,7 @@ This sales data is a LITA Capstone Project an open data which can be freely down
  2. For Data Cleaning
   - Using Excel
      - Remove Duplicates :Use remove duplicate duplicates under the data tab to clear duplicate rows
-     - Data Formating of Data:Ensure that all dates,values and Customers IDs are properly formtted
+     - Data Formating of Data:Ensure that all dates,values and Customers IDs are properly formatted
 
   3.  Descriptive statistics and Agregation
   -Using Excel
@@ -92,7 +92,10 @@ This sales data is a LITA Capstone Project an open data which can be freely down
 	                      DATENAME(MONTH, Orderdate)
                         ORDER BY month;
        ---
-
+### Inference 
+     1.Top perfoming products using Excel and SQL,is "shoes".it is considered the to perfiming product becasue of the ttal sales of #613,380 which is generated to be higher than the other product
+     2. Regional Breakdown;
+     		- IN NORTH:There ws an increase in the total turnover from 
 
   
 
