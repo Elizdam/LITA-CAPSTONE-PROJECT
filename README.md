@@ -48,12 +48,24 @@ This sales data is a LITA Capstone Project an open data which can be freely down
       7. calculate the average revenue per region (NORTH,SOUTH,EAST WEST) using the SUMIF function
   - Using SQL
   - Write queries to extract key insight based on the following quetsions;
-    1. Retrieve the ttal ales for each product category
+    1. Retrieve the total sales for each product category
     2. Find the number  of sales transactios in each region
     3. Find the hghest-selling product by total sales value
     4. Calculate total revenue per product
-    5. Calculate Monthly sales  total sales for the current year 
-  
+    5. Calculate Monthly sales  total sales for the current year
+    6. Find the top 5 customers by total purchase amount
+    7. Calculate the percentage of total sale by each region
+    8. Identfy products ith no sals in the last quarter
+   
+    Some of the quqeries are;
+    1. Retrieve the totl sales for each product category:
+   
+
+        SELECT Product, SUM(Quantity * UnitPrice) AS total_sales
+        FROM [dbo].[CAPSTONE PROJECT] 
+        GROUP BY product
+       ---
+     2. Identify productswith no sales in the last quarter ;
   .  Well desribed statistics and Aggregation
 
   2.Using Excel
@@ -62,4 +74,4 @@ This sales data is a LITA Capstone Project an open data which can be freely down
   
 
   
-- ]
+- ]in  the 
